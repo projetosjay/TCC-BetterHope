@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Síndrome de Down</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/favicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   </head>
+   <body>
+      <body>
+         <div class="header_section">
+             <div class="container-fluid">
+                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                         <ul class="navbar-nav ml-auto">
+                             <li class="nav-item active">
+                                 <a class="nav-link" href="index.html">Home</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link" href="plataforma.html">Chat</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="#" class="nav-link"><strong>Tópicos</strong></a>
+                                 <ul class="submenu">
+                                     <li><a href="descoberta.html">Descoberta</a></li>
+                                     <li><a href="aceitacao.html">Aceitação</a></li>
+                                     <li><a href="gravidez.html">Gravidez</a></li>
+                                     <li><a href="contexto.html">Contexto Familiar</a></li>
+                                     <li><a href="educacao.html">Educação</a></li>
+                                     <li><a href="convivio.html">Convívio escolar e social</a></li>
+                                 </ul>
+                             </li>
+                             <li class="logo">
+                                <img class="img_logo" src="images/logo.png" alt="logo">
+                            </li>
+                            <li class="nav-item">
+                                <a href="sindrome.html" class="nav-link"><strong>Síndrome de Down</strong></a>
+                                <ul class="submenu">
+                                    <li ><a class="scroll-btn" onclick="scrollToTopic('oque')">O que é</a></li>
+                                    <li><a class="scroll-btn" onclick="scrollToTopic('diag')">Diagnóstico e exames</a></li>
+                                    <li><a class="scroll-btn" onclick="scrollToTopic('tipos')">Tipos</a></li>
+                                    <li><a class="scroll-btn" onclick="scrollToTopic('ativ')">Atividades recomendadas</a></li>
+                                </ul>
+                            </li>
+                             <li class="nav-item">
+                                 <a class="nav-link" href="autismo.html">Autismo</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link" href="equipe.html">Equipe</a>
+                             </li>
+                             <li class="nav-item dropdown">
+                            
+                                <div id="accessibilitySidebar">
+                                    <button id="toggleContrast" class="accessibility-button">Alto Contraste</button>
+                                    <button id="increaseFont" class="accessibility-button">Aumentar Fonte</button>
+                                    <button id="decreaseFont" class="accessibility-button">Diminuir Fonte</button>
+                                    <button id="resetAccessibility" class="accessibility-button">Redefinir</button>
+                                    
+                                </div>                            
+                            </li>
+                             
+                         </ul>
+                     </div>
+                 </nav>
+             </div>
+         </div>
+      <!-- header section end -->
+      <img src="images-down-autismo/sindrome de down/familia-down-capa.jpg" alt="Pais abraçando o filho com síndrome de down.">
+
+      <!-- about section start -->
+      <div class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="about_taital">Síndrome de Down</div>
+                  <p class="about_text">Síndrome de Down, ou Trissomia do cromossomo 21, é uma alteração genética em que o indivíduo apresenta três cópias do cromossomo 21, resultando em um total de 47 cromossomos, em vez dos habituais 46. Vale destacar que essa condição não é hereditária sendo a anomalia genética mais frequente mundialmente, afetando pessoas de todas as etnias, classes sociais e nacionalidades.</p>
+               </div>
+               <div class="col-md-6">
+                  <div class="about_img"><img src="images-down-autismo/sindrome de down/pai com filha sd.jpeg" alt="Pai abraçando a sua filha ainda bebê com síndrome de down." style="border-radius: 8px;"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <div class="textoconteiner1" style="background-color: white;">
+         <div style="text-align: justify; color:#A2AEF7;" class="titulotop" id="oque" class="topic">O que é</div>
+         <h6>A Síndrome de Down, também conhecida como Trissomia do cromossomo 21, é uma condição genética caracterizada pela presença de três cópias do cromossomo 21, ao invés das duas cópias habituais. Isso resulta em um total de 47 cromossomos em cada célula do corpo, em vez dos 46 cromossomos que são normalmente encontrados em indivíduos saudáveis. Essa alteração genética ocorre durante a divisão celular e, embora a causa exata ainda não seja completamente compreendida, a maioria dos casos de Síndrome de Down é resultante de um erro durante a formação dos gametas, levando à trissomia.</h6>
+         <br>
+         <h6>É importante ressaltar que a Síndrome de Down não é uma condição hereditária, ou seja, não é transmitida de pais para filhos. É a anomalia genética mais comum no mundo, afetando pessoas de todas as etnias, classes sociais e nacionalidades. Essa síndrome pode se manifestar de maneira semelhante independentemente do sexo da criança, o que significa que tanto meninos quanto meninas podem apresentar características e desafios associados a essa condição. Além disso, a Síndrome de Down pode surgir em qualquer família, sem a necessidade de um histórico prévio de síndrome ou outras condições genéticas.</h6>
+         <br>
+         <h6>A presença da trissomia do cromossomo 21 pode resultar em uma variedade de características físicas e cognitivas, que variam de pessoa para pessoa. Entre as características físicas comuns estão a hipotonia muscular (tônus muscular reduzido), o que pode afetar o desenvolvimento motor; a presença de uma fenda palatina; e traços faciais distintos, como olhos amendoados e um perfil facial plano. Cognitivamente, as pessoas com Síndrome de Down podem apresentar níveis variados de deficiência intelectual, com algumas tendo habilidades de aprendizado que se aproximam da média, enquanto outras podem precisar de mais apoio e recursos.</h6>
+      </div>
+      <div class="textoconteiner1" style="background-color: white;">
+        <div style="text-align: left; color:#A2AEF7;" class="titulotop" id="diag" class="topic">Diagnóstico e exames</div>
+        <h6>O diagnóstico pode ser realizado durante a gestação ou através de um estudo cromossômico que pode ser realizado por três tipos de exames</h6>
+        <h2 class="container-subtitle">Translucência Nucal (TN)</h2>
+        <h6>Um exame de ultrassom realizado entre a 11ª e a 14ª semana de gestação, que mede a quantidade de líquido acumulado na região da nuca do feto. Fetos com síndrome de Down geralmente apresentam um aumento na espessura dessa área. Um valor acima do normal indica um risco elevado de Trissomia 21, mas não confirma o diagnóstico, sendo necessário realizar testes adicionais, como Amniocentese ou Biópsia de Vilo Corial.</h6>
+        <h2 class="container-subtitle">Amniocentese</h2>
+        <h6>Um exame clínico que pode ser feito a partir da 16ª semana de gestação, no qual é coletado e analisado o líquido amniótico que envolve o bebê.</h6>
+        <h2 class="container-subtitle">Biópsia de vilo corial</h2>
+        <h6>Realizada entre a 11ª e a 13ª semana de gestação, com menor risco, em que um pequeno fragmento da placenta é coletado para análise.</h6>
+        <h6>Esses testes possibilitam identificar a síndrome de Down e outras anomalias cromossômicas ao longo da gestação. Os diagnósticos pós-gestação são realizados por meio do exame do cariótipo, que possibilita a detecção de anomalias cromossômicas a partir de uma amostra de sangue, pele, líquido amniótico ou cordão umbilical. Depois da coleta, as estruturas são organizadas e analisadas em laboratório.</h6>
+     </div>
+    
+
+     <div class="textoconteiner1" style="background-color: white;">
+        <div style="text-align: left; color:#A2AEF7;" class="titulotop" id="tipos" class="topic">Tipos de Síndrome de Down</div>
+        <h2 class="container-subtitle">Trissomia Livre</h2>
+        <h6>A trissomia livre, relacionada à síndrome de Down, diz respeito à variante mais prevalente dessa condição, na qual pessoas apresentam 47 cromossomos, sendo que três pertencem ao par 21. De acordo com o Movimento Down, “cerca de 95% dos casos de síndrome de Down decorrem dessa não-disjunção, um erro em que um dos pares de cromossomos não se separa adequadamente durante a meiose.” Como consequência, um gameta (seja um óvulo ou um espermatozoide) contém 24 cromossomos, e quando se funde com um gameta normal, a célula resultante apresenta 47 cromossomos.</h6>
+        <h6>O fenômeno da não-disjunção, que se refere à incapacidade de separar os cromossomos durante a divisão celular, é um fator fundamental para a manifestação da trissomia livre. Quando um óvulo ou espermatozoide possui um cromossomo adicional, a fusão resultante gera um zigoto com três cromossomos do par 21. A partir desse ponto, todas as células do organismo irão se desenvolver com essa anomalia cromossômica.</h6>
+        <br>
+        <h2 class="container-subtitle">Translocação</h2>
+        <h6>“Aproximadamente 3,5% das pessoas com síndrome de Down possuem dois cromossomos inteiros do par 21 (a variação mais comum) junto com um segmento de um terceiro cromossomo 21, que geralmente está associado a um cromossomo de um par distinto, como o 14". (Movimento Down). Esse fenômeno acontece quando um dos pais possui um cromossomo 21 completo e um fragmento de outro cromossomo 21 que se conecta a um cromossomo diferente, frequentemente o 14.</h6>
+        <br>
+        <h6>Durante a formação dos gametas, o cromossomo 14 se desprende: um vai para uma célula e o "misto" (14 + segmento de 21) é destinado a outra, enquanto o cromossomo 21 que não possui par é enviado para uma das duas células. Como resultado, um óvulo ou espermatozoide pode conter um cromossomo 14 com um pedaço do 21 e outro cromossomo 21 completo. Quando ocorre a fertilização, o parceiro fornece um cromossomo 21, o que resulta em duas cópias completas do cromossomo 21, além de um segmento translocado.</h6>
+        <h6>As implicações da translocação costumam ser parecidas com as da trissomia simples, podendo levar à síndrome de Down e seus respectivos sintomas, a não ser que o segmento translocado seja pequeno e originado de uma região com baixa densidade gênica. Vale destacar que os pais atuam como portadores, pois possuem apenas duas cópias do cromossomo 21 e não manifestam a síndrome. Entretanto, essa translocação pode ser herdada, o que aumenta a chance de terem filhos com a síndrome ou que sejam portadores.</h6>
+        <h2 class="container-subtitle">Mosaicismo</h2>
+        <h6>“Mosaicismo é observado em aproximadamente 1,5% das crianças com síndrome de Down”. (Movimento Down). Trata-se de uma condição na qual tanto o óvulo quanto o espermatozoide têm os 23 cromossomos normais, resultando em uma célula inicial com 46 cromossomos. No decorrer das divisões celulares seguintes, pode ocorrer a não-disjunção do par de cromossomos 21, fazendo com que algumas células apresentem um total de 47 cromossomos, sendo três deles do par 21. As células originadas dessa célula trissômica manterão o total de 47 cromossomos, enquanto aquelas que derivam das células normais permanecerão com 46.</h6>
+        <h6>A proporção final de células trissômicas e normais em uma pessoa é influenciada pelo momento em que a não-disjunção acontece durante as divisões celulares. Se a não-disjunção ocorrer mais cedo, haverá uma maior quantidade de células trissômicas. Se ocorrer mais tarde, o número de células normais tende a ser maior. Essa dinâmica gera uma variabilidade nos sintomas e nas características associadas à síndrome de Down nessa pessoa.</h6>
+    </div>
+     
+    <div class="contact_section layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="contact_taital" id="ativ" class="topic">Atividades recomendadas</h1>
+                </div>
+            </div>
+            <div class="cards-bg-index">
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="images-down-autismo/sindrome de down/down-massinha.jpg" alt="Crianças brincando com massinha.">
+                        <div class="card-content">
+                            <h3>Atividades com Massas de Modelar</h3>
+                            <p>As atividades com massas de modelar são uma excelente maneira de estimular a criatividade e o desenvolvimento motor em crianças com síndrome de Down. Manipular a massa ajuda a fortalecer os músculos das mãos e dedos, melhorando a coordenação motora fina. Além disso, essas atividades oferecem uma experiência sensorial rica, permitindo que as crianças explorem texturas e formas de forma divertida. Ao criar figuras e objetos, elas também desenvolvem habilidades de resolução de problemas e autoconfiança. Essas atividades podem ser feitas individualmente ou em grupo, incentivando a interação social e a comunicação entre as crianças.</p>
+                          </div>
+                    </div>
+                    <div class="card">
+                        <img src="images-down-autismo/sindrome de down/down-colagem.jpg" alt="Crianças desenvolvendo a habilidade de recorte e colagem.">
+                        <div class="card-content">
+                            <h3>Atividades de Recorte e Colagem</h3>
+                            <p>As atividades de recorte e colagem são ótimas para desenvolver a coordenação motora e a destreza em crianças com síndrome de Down. Utilizando tesouras, papel colorido e cola, as crianças praticam habilidades motoras finas enquanto criam composições artísticas. Essas atividades também ajudam a promover a criatividade e a expressão individual, permitindo que as crianças escolham cores e formas que lhes agradem. Além disso, ao trabalhar em projetos de colagem em grupo, as crianças têm a oportunidade de socializar e cooperar, aprendendo a compartilhar e a se comunicar de maneira eficaz</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images-down-autismo/sindrome de down/down-tabuleiro.jpg" alt="Mãe brincando de jogos de tabuleiro com a filha.">
+                        <div class="card-content">
+                            <h3>Jogos de Tabuleiro Simples</h3>
+                            <p>Os jogos de tabuleiro simples são uma forma divertida e educativa de promover habilidades cognitivas e sociais em crianças com síndrome de Down. Esses jogos ajudam a desenvolver a concentração, a memória e a capacidade de seguir regras, além de incentivar a turnação e o respeito aos outros. Brincar em grupo oferece oportunidades de socialização, promovendo interações positivas e o desenvolvimento de habilidades de comunicação. Os jogos podem ser adaptados para atender às necessidades individuais da criança, garantindo que todos se sintam incluídos e engajados na atividade.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images-down-autismo/sindrome de down/down-danca.jpg" alt="Pai dançando com a filha.">
+                        <div class="card-content">
+                            <h3>Atividades de Música e Movimento</h3>
+                            <p>As atividades de música e movimento são uma maneira envolvente de estimular o desenvolvimento motor e social em crianças com síndrome de Down. Dançar e se mover ao som de músicas permite que as crianças expressem suas emoções e se divirtam, enquanto trabalham na coordenação e no equilíbrio. Além disso, essas atividades promovem a interação social, pois podem ser realizadas em grupo, incentivando a cooperação e a amizade. A música também ajuda a desenvolver habilidades auditivas e de linguagem, contribuindo para o aprendizado e a comunicação.</p>
+                        </div>
+                    </div>                  
+                </div>
+        </div>
+    </div>   
+
+       
+      <!-- about section end -->
+      <!-- footer section start -->
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-section">
+            <h3>Sobre nós</h3>
+            <p>BetterHope é uma plataforma dedicada a fornecer apoio para pais e cuidadores de crianças autistas ou com Síndrome de Down. Nossa missão é oferecer recursos práticos e uma comunidade acolhedora para melhorar a qualidade de vida dessas famílias.</p>
+          </div>
+          <div class="footer-section">
+            <h3>Tópicos</h3>
+            <ul>
+              <li><a href="descoberta.html">Descoberta</a></li>
+              <li><a href="aceitacao.html">Aceitação</a></li>
+              <li><a href="gravidez.html">Gravidez</a></li>
+              <li><a href="contexto.html">Contexto Familiar</a></li>
+              <li><a href="educacao.html">Educação</a></li>
+              <li><a href="convivio.html">Convívio</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contato</h3>
+            <p><a href="mailto:contato@betterhope.com">contato@betterhope.com</a></p>
+            <p><a href="https://www.instagram.com/bette.rhope/">Nosso instagram</a></p>
+        </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 BetterHope.</p>
+        </div>
+      </footer>
+      
+      <!-- footer section end -->
+      
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>  
+      <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+      <div vw class="enabled"> 
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper> 
+          <div class="vw-plugin-top-wrapper"></div> 
+        </div> 
+      </div> 
+      
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+          <script>
+              
+          // Variável global para guardar o tamanho original da fonte
+          let originalFontSize = parseFloat($('body').css('font-size'));
+      
+          // Aumentar fonte
+          $('#increaseFont').click(function () {
+              $('*').each(function () {
+                  let currentFontSize = parseFloat($(this).css('font-size'));
+                  $(this).css('font-size', (currentFontSize * 1.1) + 'px');
+              });
+          });
+      
+          // Diminuir fonte
+          $('#decreaseFont').click(function () {
+              $('*').each(function () {
+                  let currentFontSize = parseFloat($(this).css('font-size'));
+                  $(this).css('font-size', (currentFontSize / 1.1) + 'px');
+              });
+          });
+      
+          // Redefinir acessibilidade
+          $('#resetAccessibility').click(function () {
+              $('*').each(function () {
+                  $(this).css('font-size', '');
+              });
+              $('body').css('font-size', originalFontSize + 'px');
+          });
+      
+          let highContrastEnabled = false; // Estado do modo alto contraste
+      
+          $('#toggleContrast').click(function () {
+              if (!highContrastEnabled) {
+                  $('body').addClass('high-contrast'); // Ativa o modo alto contraste
+              } else {
+                  $('body').removeClass('high-contrast'); // Desativa o modo alto contraste
+              }
+              highContrastEnabled = !highContrastEnabled; // Alterna o estado
+          });
+      
+          // Redefinir configurações
+          $('#resetAccessibility').click(function () {
+              if (highContrastEnabled) {
+                  $('#toggleContrast').trigger('click'); // Desativa o alto contraste se estiver ativo
+              }
+              $('*').css('font-size', ''); // Redefine tamanhos de fonte
+          });
+      
+        
+      </script>
+      
+      <style>
+          /* Estilos principais para modo alto contraste */
+          .high-contrast {
+              background-color: #000 !important; /* Fundo preto */
+              color: #FFF !important; /* Texto branco */
+          }
+      
+          .high-contrast * {
+              background-color: transparent !important; /* Remove fundos conflitantes */
+              color: #FFF !important; /* Garante que o texto fique branco */
+              border-color: #FFF !important; /* Bordas claras */
+          }
+      
+          .high-contrast a {
+              color: #FFD700 !important; /* Links em amarelo */
+              text-decoration: underline; /* Links sublinhados para visibilidade */
+          }
+      
+          .high-contrast img {
+              filter: brightness(0.8); /* Escurece imagens para melhor contraste */
+          }
+      
+          .high-contrast button, 
+          .high-contrast input, 
+          .high-contrast select, 
+          .high-contrast textarea {
+              background-color: #000 !important; /* Fundo preto em elementos interativos */
+              color: #FFF !important; /* Texto branco */
+              border: 1px solid #FFF !important; /* Bordas claras */
+          }
+      </style>
+   </body>
+</html>
